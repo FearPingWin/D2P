@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Home">
+   <children>
+      <Button fx:id="btnMatches" layoutX="287.0" layoutY="50.0" mnemonicParsing="false" onAction="#setWindMatches" prefHeight="25.0" prefWidth="101.0" text="Matches" />
+      <Button fx:id="btnRating" layoutX="550.0" layoutY="50.0" mnemonicParsing="false" onAction="#setWindRating" prefHeight="25.0" prefWidth="101.0" text="Rating" />
+      <Button fx:id="btnAccount" layoutX="152.0" layoutY="50.0" mnemonicParsing="false" onAction="#setWindAccount" prefHeight="25.0" prefWidth="101.0" text="Account" />
+      <Button fx:id="btnHistory" layoutX="418.0" layoutY="50.0" mnemonicParsing="false" onAction="#setWindHistory" prefHeight="25.0" prefWidth="101.0" text="History" />
+      <Label fx:id="nickname" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="50.0" text="Nickname" />
+      <Label fx:id="balance" alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="101.0" text="Dota point" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="41.0" layoutY="77.0" text="Balance" />
+      <Button fx:id="btn_getPoint" layoutX="34.0" layoutY="126.0" mnemonicParsing="false" onAction="#getPoint" prefHeight="38.0" prefWidth="72.0" text="Get Points" />
+      <Label alignment="CENTER" layoutX="165.0" layoutY="101.0" prefHeight="69.0" prefWidth="771.0" text="Welcome to Dota2predict app!" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="164.0" prefHeight="38.0" prefWidth="771.0" text="To get points press the button &quot;Get Points&quot;. You can get 1000 points every time your balance is less than 1000." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="202.0" prefHeight="38.0" prefWidth="771.0" text="On the &quot;Account&quot; tab, you can change your password or email." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="240.0" prefHeight="38.0" prefWidth="771.0" text="On the &quot;Matches&quot; tab, a list of matches available for prediction is displayed." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="278.0" prefHeight="38.0" prefWidth="771.0" text="On the &quot;History&quot; tab, a list of changes in the number of points is displayed" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="316.0" prefHeight="38.0" prefWidth="771.0" text="On the &quot;Rating&quot; tab displays a list of all players, their points and their place in the rating." textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

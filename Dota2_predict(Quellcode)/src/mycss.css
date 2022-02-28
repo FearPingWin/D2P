@@ -1,0 +1,10 @@
+.root {
+
+  -fx-background-image: url("application/background.jpg");
+ /*   -fx-background-image: url(GUI.class.getResource("background.jpg"));*/
+}
+/*.label{
+	 -fx-background-color: white; 
+}
+
+*/
